@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f5f9;
+    color: #1e293b;
+    padding: 20px;
+}
+
+header {
+    background-color: #173b63;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #dbeafe;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.indicadores {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+    color: #64748b;
+    font-size: 16px;
+}
+
+.card p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #173b63;
+    margin-top: 10px;
+}
+
+.formulario,
+.clientes {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    color: #173b63;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+button {
+    background-color: #173b63;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+button:hover {
+    background-color: #24588c;
+}
+
+#pesquisa {
+    margin-bottom: 20px;
+}
+
+.cliente {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.cliente h3 {
+    color: #173b63;
+    margin-bottom: 10px;
+}
+
+.cliente p {
+    margin-bottom: 6px;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+}
+
+.acoes button {
+    flex: 1;
+}
+
+.botao-excluir {
+    background-color: #b91c1c;
+}
+
+.botao-excluir:hover {
+    background-color: #991b1b;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .formulario,
+    .clientes {
+        padding: 18px;
+    }
+
+    .acoes {
+        flex-direction: column;
+    }
+}
